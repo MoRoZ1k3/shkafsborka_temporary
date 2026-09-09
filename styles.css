@@ -1697,13 +1697,21 @@ button.project-result-card__sketch {
 
 .contact-actions {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 0.85rem;
   margin-top: 1.4rem;
 }
 
 .contact-actions + .contact-item {
   margin-top: 1.65rem;
+}
+
+.contact-channel {
+  display: block;
+  width: 100%;
+  margin-top: 0.85rem;
+  margin-bottom: 1.65rem;
+  text-align: center;
 }
 
 .contact-connect {
