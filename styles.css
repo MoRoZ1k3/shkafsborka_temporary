@@ -1702,6 +1702,11 @@ button.project-result-card__sketch {
   margin-top: 1.4rem;
 }
 
+.contact-actions .btn {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
 .contact-actions + .contact-item {
   margin-top: 1.65rem;
 }
